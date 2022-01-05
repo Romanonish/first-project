@@ -1,10 +1,16 @@
 body {
   background-color: yellow;
 }
+
 .hny {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: red;
   background-color: royalblue;
-  width: 450px;
+  width: 500px;
   height: 150px;
 }
 #parent {
@@ -19,4 +25,9 @@ body {
   width: 50%;
   height: 30%;
   margin: auto;
+}
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
